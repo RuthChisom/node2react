@@ -21,10 +21,10 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
+        <p>{this.state.apiResponse}</p>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <p>{this.state.apiResponse}</p>
       </div>
     );
   }
